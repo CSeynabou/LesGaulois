@@ -29,5 +29,13 @@ public class Romain {
 			parler("J'abandonne ...");
 		}
 	}	
+	
+	 public static void main(String[] args) {
+		Romain marc = new Romain("Marc", 7);
+		marc.prendreParole();
+		marc.parler("Je parleeeee");
+		marc.recevoirCoup(9);
+		
+	}
 }
 
