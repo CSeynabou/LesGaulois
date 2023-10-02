@@ -43,8 +43,8 @@ public class Village {
 	public static void main(String[] args) {
 		Village village = new Village("Village des Irréductibles", 30);
 //		Gaulois gaulois = village.trouverHabitant(30);
-// 		la case d'indice 30 du tableau village n'existe pas
-//		 le nb maximum de villageois est 30 
+// 		la case d'indice 30 du tableau village n'existe pas,
+//		le nb maximum de villageois est 30,
 //		donc la dernière cas est d'indice 29
 		Chef abraracourcix = new Chef("Abraracourcix", 6, village);
 		village.setChef(abraracourcix);
