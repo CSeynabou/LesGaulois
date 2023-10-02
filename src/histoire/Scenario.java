@@ -4,8 +4,8 @@ import personnages.Druide;
 import personnages.Equipement;
 import personnages.Gaulois;
 import personnages.Romain;
-import personnages.Village;
-//import musee.Village;
+import personnages.Villages;
+import musee.Musee;
 
 public class Scenario {
 
@@ -35,8 +35,8 @@ public class Scenario {
 		
 //		Partie a decommenter
 		
-//		Musee musee = new Musee();
-//		asterix.faireUneDonnation(musee);
+		Musee musee = new Musee();
+		asterix.faireUneDonnation(musee);
 
 	}
 

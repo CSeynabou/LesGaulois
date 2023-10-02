@@ -3,9 +3,9 @@ package personnages;
 public class Chef {
 	private String nom;
 	private int force;
-	private Village village;
+	private Villages village;
 	
-	public Chef(String nom, int force, Village village) {
+	public Chef(String nom, int force, Villages village) {
 		super();
 		this.nom = nom;
 		this.force = force;
